@@ -1,0 +1,39 @@
+Arguments: 
+  /home/sixtyagent2/.nvm/versions/node/v18.17.0/bin/node /usr/local/bin/yarn add express
+
+PATH: 
+  /home/sixtyagent2/.nvm/versions/node/v18.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/sixtyagent2/Documents/e-commerce-api/package.json: Unexpected token } in JSON at position 172
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "e-commerce-api",
+    "version": "1.0.0",
+    "description": "An e-commerce based RESTful api",
+    "main": "app.js",
+    "author": "Abu Hasan",
+    "license": "MIT",
+    
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

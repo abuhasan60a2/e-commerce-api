@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Honorable",
+    "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.\n\nSed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+    "category": "Laptop",
+    "price": 5869.25,
+    "rating": 3.8,
+    "ratingCount": 6017,
+    "discount": 72,
+    "stock": 2499,
+    "image": "Elementum.tiff",
+    "images": []
+  },
+  {
+    "name": "Rev",
+    "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+    "category": "Laptop",
+    "price": 7933.96,
+    "rating": 1.0,
+    "ratingCount": 6655,
+    "discount": 66,
+    "stock": 9531,
+    "image": "AmetConsectetuer.ppt",
+    "images": []
+  },
+  {
+    "name": "Rev",
+    "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.\n\nPraesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.\n\nCras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    "category": "Laptop",
+    "price": 4941.6,
+    "rating": 4.5,
+    "ratingCount": 5115,
+    "discount": 71,
+    "stock": 4800,
+    "image": "NullamMolestieNibh.mpeg",
+    "images": []
+  },
+  {
+    "name": "Mr",
+    "description": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+    "category": "Laptop",
+    "price": 3830.12,
+    "rating": 4.7,
+    "ratingCount": 3453,
+    "discount": 1,
+    "stock": 6589,
+    "image": "AmetEros.tiff",
+    "images": []
+  },
+  {
+    "name": "Mr",
+    "description": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+    "category": "Laptop",
+    "price": 4033.17,
+    "rating": 3.2,
+    "ratingCount": 513,
+    "discount": 64,
+    "stock": 1648,
+    "image": "TurpisEnim.mp3",
+    "images": []
+  },
+  {
+    "name": "Mrs",
+    "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+    "category": "Laptop",
+    "price": 5091.1,
+    "rating": 1.2,
+    "ratingCount": 4430,
+    "discount": 30,
+    "stock": 7970,
+    "image": "LoremVitaeMattis.tiff",
+    "images": []
+  },
+  {
+    "name": "Honorable",
+    "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.\n\nCurabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+    "category": "Laptop",
+    "price": 4215.47,
+    "rating": 2.7,
+    "ratingCount": 8470,
+    "discount": 71,
+    "stock": 9465,
+    "image": "VolutpatErat.mov",
+    "images": []
+  },
+  {
+    "name": "Mrs",
+    "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+    "category": "Laptop",
+    "price": 2047.29,
+    "rating": 3.0,
+    "ratingCount": 2583,
+    "discount": 75,
+    "stock": 4231,
+    "image": "UllamcorperPurus.jpeg",
+    "images": []
+  }
+]
