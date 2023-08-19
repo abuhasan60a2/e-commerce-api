@@ -71,7 +71,39 @@ productController.deleteProduct = (req, res) => {
     message: "deleteProduct handler is not yet defined",
   });
 };
-
-
+//aggregation pipeline
+productController.getProductStat = async (req,res)=>{
+    try{
+        const stats = await Product.aggregate([
+            {
+                $match: {rating:{$gte:4}}
+            },
+            {
+                $group: {
+                    _id: '$category',
+                    numProducts: {$sum: '$stock'}, 
+                    avgPrice: {$avg: '$price'},
+                    minPrice: {$min: '$price'},
+                    maxPrice: {$max: '$price'}
+                }
+            },
+            {
+                $sort: {avgPrice: 1}
+            }
+        ])
+        res.status(200).json({
+            status: "success",
+            data: {
+                stats
+            }
+        })
+    }
+    catch(err){
+        res.status(500).json({
+            status: "error",
+            message: err.message
+        })
+    }
+}
 
 module.exports = productController;
