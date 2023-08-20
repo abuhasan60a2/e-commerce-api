@@ -38,6 +38,15 @@ const Product = new Schema(
         },
         discount:{
             type: Number,
+            //custom validator
+            validator:{
+                validate: function(val){
+                    return val<this.price;
+
+                },
+                message: 'Discount price ({VALUE}) should be less than the regular price'
+
+            }
             
         },
 
